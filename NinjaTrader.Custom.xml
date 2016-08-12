@@ -1363,6 +1363,18 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:NinjaTrader.Indicator.Indicator.kOvernightHitStats">
+            <summary>
+            Enter the description of your new custom indicator here
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NinjaTrader.Indicator.Indicator.kOvernightHitStats(NinjaTrader.Data.IDataSeries)">
+            <summary>
+            Enter the description of your new custom indicator here
+            </summary>
+            <returns></returns>
+        </member>
         <member name="M:NinjaTrader.Indicator.Indicator.kStatsAndAlerts">
             <summary>
             Enter the description of your new custom indicator here
@@ -3031,6 +3043,18 @@
             <returns></returns>
         </member>
         <member name="M:NinjaTrader.MarketAnalyzer.Column.kEventOnChart(NinjaTrader.Data.IDataSeries)">
+            <summary>
+            Enter the description of your new custom indicator here
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NinjaTrader.MarketAnalyzer.Column.kOvernightHitStats">
+            <summary>
+            Enter the description of your new custom indicator here
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NinjaTrader.MarketAnalyzer.Column.kOvernightHitStats(NinjaTrader.Data.IDataSeries)">
             <summary>
             Enter the description of your new custom indicator here
             </summary>
@@ -4714,6 +4738,18 @@
             <returns></returns>
         </member>
         <member name="M:NinjaTrader.Strategy.Strategy.kEventOnChart(NinjaTrader.Data.IDataSeries)">
+            <summary>
+            Enter the description of your new custom indicator here
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NinjaTrader.Strategy.Strategy.kOvernightHitStats">
+            <summary>
+            Enter the description of your new custom indicator here
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NinjaTrader.Strategy.Strategy.kOvernightHitStats(NinjaTrader.Data.IDataSeries)">
             <summary>
             Enter the description of your new custom indicator here
             </summary>
@@ -7721,7 +7757,17 @@
             This method is used to configure the indicator and is called once before any bar data is loaded.
             </summary>
         </member>
-        <member name="M:NinjaTrader.Indicator.kEventOnChart.OnBarUpdate">
+        <member name="T:NinjaTrader.Indicator.kOvernightHitStats">
+            <summary>
+            Enter the description of your new custom indicator here
+            </summary>
+        </member>
+        <member name="M:NinjaTrader.Indicator.kOvernightHitStats.Initialize">
+            <summary>
+            This method is used to configure the indicator and is called once before any bar data is loaded.
+            </summary>
+        </member>
+        <member name="M:NinjaTrader.Indicator.kOvernightHitStats.OnBarUpdate">
             <summary>
             Called on each bar update event (incoming tick)
             </summary>

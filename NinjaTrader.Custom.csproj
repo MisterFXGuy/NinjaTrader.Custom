@@ -370,6 +370,7 @@
     <Compile Include="Indicator\kEconomicCalendar.cs" />
     <Compile Include="Indicator\kEconomicDataSet.cs" />
     <Compile Include="Indicator\kEventOnChart.cs" />
+    <Compile Include="Indicator\kOvernightHitStats.cs" />
     <Compile Include="Indicator\kStatsAndAlerts.cs" />
     <Compile Include="Indicator\kTickAnalysis.cs" />
     <Compile Include="Indicator\LBR310.cs" />

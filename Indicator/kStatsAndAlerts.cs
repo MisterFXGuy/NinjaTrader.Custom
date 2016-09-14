@@ -141,7 +141,7 @@ namespace NinjaTrader.Indicator
             MatchCollection parsePrevious = Regex.Matches(sourceCode, @"td class=""calendar__cell calendar__previous previous"">\s*(.+?)</td>", RegexOptions.Singleline);
             //MatchCollection parseNoEventDate = Regex.Matches(sourceCode, @"data-eventid=""\s*(.+?)""\s*(.+?) data-touchable> <td class=""calendar__cell calendar__date date"">", RegexOptions.Singleline);
 
-            Print("Date");
+            Print("Time");
             foreach (Match m in parseDate)
             {
                 MatchCollection DateOnly = Regex.Matches(m.Groups[1].Value, @"<span>\s*(.+?)</span>", RegexOptions.Singleline);

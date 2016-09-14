@@ -370,6 +370,7 @@
     <Compile Include="Indicator\kEconomicCalendar.cs" />
     <Compile Include="Indicator\kEconomicDataSet.cs" />
     <Compile Include="Indicator\kEventOnChart.cs" />
+    <Compile Include="Indicator\kOvernightExtremeTest.cs" />
     <Compile Include="Indicator\kOvernightHitStats.cs" />
     <Compile Include="Indicator\kStatsAndAlerts.cs" />
     <Compile Include="Indicator\kTickAnalysis.cs" />
@@ -395,6 +396,7 @@
     <Compile Include="Strategy\kDailyPNL.cs" />
     <Compile Include="Strategy\kDataRelease.cs" />
     <Compile Include="Strategy\kEconomicData.cs" />
+    <Compile Include="Strategy\kOvernightExtreme.cs" />
     <Compile Include="Strategy\kOvernightTarget.cs" />
     <Compile Include="Strategy\kTobyCarbel.cs" />
     <Compile Include="Strategy\L2Sell.cs" />

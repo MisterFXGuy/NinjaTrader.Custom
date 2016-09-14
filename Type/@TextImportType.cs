@@ -185,7 +185,7 @@ namespace NinjaTrader.Data
 				}
 				catch (Exception exp)
 				{
-					Cbi.LogEventArgs.ProcessEventArgs(new Cbi.LogEventArgs(Instrument.FullName + ": Date/Time format error in line " + (DataPoints + 1) + ": " 
+					Cbi.LogEventArgs.ProcessEventArgs(new Cbi.LogEventArgs(Instrument.FullName + ": Time/Time format error in line " + (DataPoints + 1) + ": " 
 						+ exp.Message + ": '" + CurrentData + "'", Cbi.LogLevel.Error));
 					try		{ reader.Close(); }
 					catch	{};

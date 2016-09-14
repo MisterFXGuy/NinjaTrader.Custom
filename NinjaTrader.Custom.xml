@@ -1363,6 +1363,18 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:NinjaTrader.Indicator.Indicator.kOvernightExtremeTest">
+            <summary>
+            Enter the description of your new custom indicator here
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NinjaTrader.Indicator.Indicator.kOvernightExtremeTest(NinjaTrader.Data.IDataSeries)">
+            <summary>
+            Enter the description of your new custom indicator here
+            </summary>
+            <returns></returns>
+        </member>
         <member name="M:NinjaTrader.Indicator.Indicator.kOvernightHitStats">
             <summary>
             Enter the description of your new custom indicator here
@@ -3043,6 +3055,18 @@
             <returns></returns>
         </member>
         <member name="M:NinjaTrader.MarketAnalyzer.Column.kEventOnChart(NinjaTrader.Data.IDataSeries)">
+            <summary>
+            Enter the description of your new custom indicator here
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NinjaTrader.MarketAnalyzer.Column.kOvernightExtremeTest">
+            <summary>
+            Enter the description of your new custom indicator here
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NinjaTrader.MarketAnalyzer.Column.kOvernightExtremeTest(NinjaTrader.Data.IDataSeries)">
             <summary>
             Enter the description of your new custom indicator here
             </summary>
@@ -4738,6 +4762,18 @@
             <returns></returns>
         </member>
         <member name="M:NinjaTrader.Strategy.Strategy.kEventOnChart(NinjaTrader.Data.IDataSeries)">
+            <summary>
+            Enter the description of your new custom indicator here
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NinjaTrader.Strategy.Strategy.kOvernightExtremeTest">
+            <summary>
+            Enter the description of your new custom indicator here
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NinjaTrader.Strategy.Strategy.kOvernightExtremeTest(NinjaTrader.Data.IDataSeries)">
             <summary>
             Enter the description of your new custom indicator here
             </summary>
@@ -7757,6 +7793,21 @@
             This method is used to configure the indicator and is called once before any bar data is loaded.
             </summary>
         </member>
+        <member name="T:NinjaTrader.Indicator.kOvernightExtremeTest">
+            <summary>
+            Enter the description of your new custom indicator here
+            </summary>
+        </member>
+        <member name="M:NinjaTrader.Indicator.kOvernightExtremeTest.Initialize">
+            <summary>
+            This method is used to configure the indicator and is called once before any bar data is loaded.
+            </summary>
+        </member>
+        <member name="M:NinjaTrader.Indicator.kOvernightExtremeTest.OnBarUpdate">
+            <summary>
+            Called on each bar update event (incoming tick)
+            </summary>
+        </member>
         <member name="T:NinjaTrader.Indicator.kOvernightHitStats">
             <summary>
             Enter the description of your new custom indicator here
@@ -7765,11 +7816,6 @@
         <member name="M:NinjaTrader.Indicator.kOvernightHitStats.Initialize">
             <summary>
             This method is used to configure the indicator and is called once before any bar data is loaded.
-            </summary>
-        </member>
-        <member name="M:NinjaTrader.Indicator.kOvernightHitStats.OnBarUpdate">
-            <summary>
-            Called on each bar update event (incoming tick)
             </summary>
         </member>
         <member name="T:NinjaTrader.Indicator.kStatsAndAlerts">
@@ -9616,6 +9662,21 @@
             <summary>
             Called on each bar update event (incoming tick)
             </summary>
+        </member>
+        <member name="T:NinjaTrader.Strategy.kOvernightExtreme">
+            <summary>
+            Enter the description of your strategy here
+            </summary>
+        </member>
+        <member name="M:NinjaTrader.Strategy.kOvernightExtreme.Initialize">
+            <summary>
+            This method is used to configure the strategy and is called once before any strategy method is called.
+            </summary>
+        </member>
+        <member name="M:NinjaTrader.Strategy.kOvernightExtreme.OnBarUpdate">
+            <summary>
+            Called on each bar update event (incoming tick)
+            </summary>s
         </member>
         <member name="T:NinjaTrader.Strategy.kOvernightTarget">
             <summary>
